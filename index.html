@@ -96,7 +96,7 @@
                 }
                 var d1 = new Date(ngayTT);
                 var d2 = new Date();
-                if (d1 > d2) {
+                if (d1 < d2) {
                     $("#tbngaytaptrung").html("Ngày tập trung phải sau ngày hiện tại 7 ngày ");
                     return false;
                 }
